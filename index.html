@@ -1,21 +1,26 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
   <!-- el. lang="da" -->
 
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Style Tiles with CSS - A20</title>
+    <title>Style Tile</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <div class="full-width header-wrapper">
       <header>
-        <h1>Style Tile Template</h1>
-        <h2>Project name</h2>
-        <h3>Style tile</h3>
+        <h1>Style Tile</h1>
+        <h2>Titel: Noget med "Veggie"</h2>
+        <h3>Content marketing</h3>
         <h4>Version 1</h4>
       </header>
     </div>
@@ -23,28 +28,41 @@
     <main>
       <div class="column">
         <section class="swatches">
-          <h3 class="section-heading">Colour swatches</h3>
+          <h3 class="section-heading">Farver</h3>
           <ul class="swatchgrid">
-            <li class="color-swatch-1"></li>
-            <li class="color-swatch-2"></li>
-            <li class="color-swatch-3"></li>
-            <li class="color-swatch-4"></li>
-            <li class="color-swatch-5"></li>
+            <li class="color-swatch-1">#9FF5E9</li>
+            <li class="color-swatch-2">#ABAFF5</li>
+            <li class="color-swatch-3">#B3F594</li>
+            <li class="color-swatch-4">#F59F7A</li>
+            <li class="color-swatch-5">#F5E08E</li>
           </ul>
         </section>
-        <section class="textures">
-          <h3 class="section-heading">Textures</h3>
+        <section class="Billedestil">
+          <h3 class="section-heading">Billedestil</h3>
           <ul class="swatchgrid">
-            <li class="texture-swatch-1"></li>
-            <li class="texture-swatch-2"></li>
-            <li class="texture-swatch-3"></li>
+            <li class="billede-1">
+              <img src="img/slik.jpg" />
+            </li>
+            <li class="billede-2">
+              <img
+                src="img/slik_2.jpg"
+                class="img-thumbnail"
+                alt="img-thumbnail"
+              />
+            </li>
+            <li class="billede-3">
+              <img
+                src="img/vibe.jpg"
+                class="img-thumbnail"
+                alt="img-thumbnail"
+              />
+            </li>
           </ul>
         </section>
-        <section class="buttons">
-          <h3 class="section-heading">Buttons</h3>
+        <section class="logo">
+          <h3 class="section-heading">Logo</h3>
           <div>
-            <button type="button" class="primary-button">Button 1</button>
-            <button type="button" class="secondary-button">Button 2</button>
+            <img src="img/logo.png" class="img-thumbnail" alt="img-thumbnail" />
           </div>
         </section>
       </div>
@@ -52,44 +70,29 @@
 
       <div class="column">
         <section class="typography-main">
-          <h3 class="section-heading">Typography</h3>
-          <h1 class="h1-sample">A sample header</h1>
+          <h3 class="section-heading">Font</h3>
+          <h1 class="h1-sample">Overskrift eksempel</h1>
           <p class="font-details-h1">
-            <span class="font-name">Font Name</span>,
-            <span class="font-color">#color value</span>
+            <span class="font-name">Lobster</span>,
+            <span class="font-color">#000000</span>
           </p>
-          <h2 class="h2-sample">An example of a sub header</h2>
+          <h2 class="h2-sample">Underoverskrift eksempel</h2>
           <p class="font-details-h2">
-            <span class="font-name">Font Name</span>,
-            <span class="font-color">#color value</span>
+            <span class="font-name">Lobster</span>,
+            <span class="font-color">#000000</span>
           </p>
-          <p class="typography-sample">
-            This sample paragraph has <strong>strong parts</strong> and
-            <em>emphasized parts</em>. Vestibulum tortor quam, feugiat vitae,
-            ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
-            egestas semper. Aenean ultricies mi vitae est. Mauris placerat
-            eleifend leo. Pellentesque habitant morbi tristique senectus et
-            netus et malesuada fames ac turpis egestas.
-          </p>
+          <p class="typography-sample">Brødtekst</p>
           <p class="font-details-p">
-            <span class="font-name">Font Name</span>,
-            <span class="font-color">#color value</span>
-          </p>
-          <a href="#" class="typography-sample"
-            >This is an example of a text link.</a
-          >
-          <p class="font-details-a">
-            <span class="font-name">Font Name</span>,
-            <span class="font-color">#color value</span>
+            <span class="font-name">Helvetica</span>,
+            <span class="font-color">#000000</span>
           </p>
         </section>
         <section class="adjectives">
-          <h3 class="section-heading">Adjectives</h3>
+          <h3 class="section-heading">Karaktertræk</h3>
           <ul>
-            <li>Write</li>
-            <li>Your</li>
-            <li>adjectives</li>
-            <li>here</li>
+            <li>Vegetarisk</li>
+            <li>Lækkert</li>
+            <li>Sjovt</li>
           </ul>
         </section>
       </div>
@@ -98,7 +101,10 @@
 
     <div class="full-width">
       <footer>
-        <p>Be creative - don't just use this template as it is!</p>
+        <p>
+          Content Marketing<br />
+          Mathilde Bjørnlund Schoubye <br />Københavns Erhvervsakademi
+        </p>
       </footer>
     </div>
   </body>
